@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.headerlogo{
+    margin-top: 4.50vh;
+    margin-left: 5.33vw;
+    margin-right: 5.33vw;
+}
+
+.headerlogo img{
+    width: 13.87vw;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7.50vh;
+    gap: 4vw;
+    margin-left: 5.33vw;
+}
+
+.image1, .image2{
+    width: 2.73vw;
+    height: auto;
+}
+.image3{
+    width: 2.49vw;
+    height: auto;
+}
+
+span{
+    font-size: 2.67vw;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1.07vw;
+    margin: 0;
+}
+
+.heading{
+    height: 8.36vh;
+    width: auto;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+
+.heading1{
+    width: 78.03vw;
+    height: auto;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    line-height: 101.4%;
+    font-size: 9.87vw;
+}
+
+.paragraph1{
+    width: 56.64vw;
+    height: auto;
+    margin-top: 3vh;
+    font-size: 2.67vw;
+    text-align: left;
+    line-height: 150%;
+}
+
+.component1{
+    display: flex;
+    margin-left: 41vw;
+    width: 37.60vw;
+    height: auto;
+}
+
+.frame1{
+    width: 60.10vw;
+    margin-top: 6vh;
+    margin-left: 5.33vw;
+    display: block;
+}
+
+.section1{
+    margin-left: 5.33vw;
+    margin-right: 5.33vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.heading2{
+    font-size: 6.93vw;
+    line-height: 101.4%;
+    text-align: left;
+    width: 45.55vw;
+    height: auto;
+}
+
+.paragraph2{
+    width: 82.26vw;
+    font-size: 3.20vw;
+    text-align: left;
+    line-height: 150%;
+}
+
+.page2{
+    margin-left: 5.33vw;
+    margin-right: 5.33vw;
+}
+
+.component2{
+    width: 45.33vw;
+    height: auto;
+    margin-left: 22.67vw;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.50vh;
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .headerlogo{
+        margin-top: 2.44vh;
+        margin-left: 3.26vw;
+    }
+    .headerlogo img{
+        width: 8.45vw;
+        height: auto;
+    }
+    .image1, .image2{
+        width: 1.66vw;
+        height: auto;
+    }
+    .image3{
+        width: 1.51vw;
+        height: auto;
+    }
+    span{
+        font-size: 1.56vw;
+    }
+    .header{
+        display: flex;
+        gap: 0.52vw;
+        margin: 0;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3.91vh;
+        gap: 2.60vw;
+        margin-left: 3.26vw;
+    }
+    .heading{
+        font-family: "Roboto Slab", serif;
+        font-weight: bold;
+    }
+    .heading1{
+        font-size: 5.99vw;
+        line-height: 101.4%;
+        width: 47.38vw;
+        height: auto;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 1.46vh;
+    }
+    .paragraph1{
+        width: 70%;
+        height: auto;
+        margin-top: 1.95vh;
+        font-size: 1.56vw;
+        text-align: left;
+        line-height: 150%;
+    }
+    .section1{
+        margin-left: 3.26vw;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .component1{
+        display: flex;
+        width: 22.92vw;
+        height: auto;
+        margin-right: 2.60vw;
+        margin-top: 0.98vh;
+    }
+    .frame1{
+        margin-top: 7vh;
+        margin-left: 23vw;
+        width: 36.47vw;
+    }
+    .heading2{
+        font-size: 4.17vw;
+        text-align: left;
+    }
+    .page2{
+        margin-left: 3.26vw;
+    }
+    .paragraph2{
+        font-size: 1.82vw;
+        text-align: left;
+        width: 49.93vw;
+    }
+    .section2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 4.88vh;
+    }
+    .component2{
+        width: 23.69vw;
+        margin-top: 15vh;
+        margin-right: 2.60vw;
+    }
+  .component1 {
+    margin-left: clamp(10px, 1.5vw, 20px);
+  }
+  .component2 {
+    margin-left: clamp(10px, 1.5vw, 20px);
+  }
+  .section1,
+  .section2 {
+    gap: clamp(10px, 1.5vw, 30px);
+  }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 2100px){
+    .headerlogo img{
+        width: 7.78vw;
+        height: auto;
+    }
+    .headerlogo{
+        margin-left: 4.86vw;
+    }
+    header{
+        margin-top: 1.67vh;
+    }
+    .image1, .image2{
+        width: 1.53vw;
+        height: auto;
+    }
+    .image3{
+        width: 1.39vw;
+        height: auto;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        gap: 2.78vw;
+        margin-top: 10vh;
+        justify-content: flex-start;
+        margin-left: 4.86vw;
+    }
+    span{
+        font-size: 1.39vw;
+    }
+    .heading1{
+        width: 43.61vw;
+        height: 21.11vh;
+        font-size: 5.56vw;
+        margin-top: 3.33vh;
+        margin-bottom: 0;
+        line-height: 101.4%;
+        text-align: left;
+    }
+    .paragraph1{
+        width: 35vw;
+        font-size: 1.39vw;
+        margin-top: 0;
+        line-height: 150%;
+        text-align: left;
+    }
+    .component1{
+        margin: 0;
+        width: 21.18vw;
+        height: 41.78vh;
+    }
+    .section1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 4.86vw;
+        text-align: left;
+        gap: 7.64vw;
+    }
+    .frame1{
+        margin-top: 7.78vh;
+        margin-left: 25vw;
+        width: 33vw;
+    }
+    .heading2{
+        width: 25.35vw;
+        height: 10.33vh;
+        font-size: 3.82vw;
+        line-height: 101.4%;
+        text-align: left;
+    }
+    .page2{
+        margin-left: 4.86vw;
+    }
+    .paragraph2{
+        font-size: 1.67vw;
+        line-height: 150%;
+        text-align: left;
+        width: 46.1vw;
+    }
+    .section2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 16.67vh;
+    }
+    .component2{
+        width: 25.42vw;
+        height: 38.22vh;
+        position: relative;
+        margin-top: 21.11vh;
+    }
+    .paragraph2{
+        margin-right: clamp(10px, 1.5vw, 30px);
+    }
+    .section2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: clamp(80px, 12vh, 150px);
+        gap: clamp(20px, 3vw, 60px);
+    }
+    .component2{
+        height: auto;
+        position: relative;
+        margin-top: clamp(100px, 18vh, 190px);
+        margin-left: clamp(10px, 1.2vw, 25px);
+    }
+}
