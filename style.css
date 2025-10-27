@@ -267,7 +267,7 @@ span{
     }
     .heading1{
         width: 43.61vw;
-        height: 21.11vh;
+        height: auto;
         font-size: 5.56vw;
         margin-top: 3.33vh;
         margin-bottom: 0;
