@@ -1,0 +1,117 @@
+.maga1 h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101%;
+}
+
+.maga2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maga2 img {
+  width: 290px;
+  height: 302px;
+}
+
+.maga2 p {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.maga7 h2 {
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 101%;
+        margin-bottom: 40px;
+      }
+
+      .maga7 ul {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 150%;
+        font-size: 24px;
+        margin-bottom: 300px;
+        padding-left: 15px;
+      }
+
+      .maga3 img {
+        width: 366px;
+        height: 344px;
+      }
+
+.maga4 {
+  width: 662px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.maga5 {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+  margin-bottom: 200px;
+  font-family: "Roboto", sans-serif;
+}
+
+.maga5 img {
+  width: 222px;
+  height: 194px;
+}
+
+.maga5 h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.maga5 p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0;
+  width: 150px;
+}
+
+.maga5 section {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  margin-left: 150px;
+}
+
+.maga5-format {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  margin-bottom: 250px;
+  font-family: "Roboto", sans-serif;
+}
+
+.maga5-format h4 {
+  color: #1E4681;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+#maga8 {
+  margin-bottom: 80px;
+}
+
+.maga6 {
+  width: 250px;
+}
+
+ul {
+  width: 662px;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 24px;
+  margin-bottom: 300px;
+  font-family: "Roboto", sans-serif;
+}
