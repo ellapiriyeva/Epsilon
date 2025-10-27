@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
@@ -466,6 +467,7 @@ ul {
 
 
 
+
 /*body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -765,7 +767,9 @@ h1 {
 
 
 
+
 body {
+
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -817,6 +821,12 @@ h1 {
 }
 
 
+.feedback-section {
+  background-color: #fff;
+  padding: 6vh 5.3vw; /* 40px 20px */
+  margin-top: 6vh;
+  text-align: left;
+}
 
 .feedback-section h1 {
   font-size: 8vh; /* 55px */
@@ -888,8 +898,6 @@ h1 {
     font-size: 1em;
   }
 }
-
-
 
 
 
